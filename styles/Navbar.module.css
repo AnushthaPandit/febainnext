@@ -36,9 +36,9 @@
   z-index: 1000; /* for overlaping in right side */
   color: #000;
   background: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   box-shadow: 5px 10px 10px 5px rgba(101, 92, 92, 0.5);
-  height: 470px;
+  height: 460px;
   max-width: 50%;
   /* display: flex; */
   /* align-items: center; */
@@ -46,7 +46,7 @@
   /* justify-content:left; */
 }
 .contentleft {
-  width: 450px;
+  width: 420px;
   /* padding-left: .5rem; */
 }
 .contentleft h1 {
@@ -55,7 +55,7 @@
 
   font-weight: 500;
   /* margin: 10px 20px; */
-  margin-top: 25px;
+  margin-top: 27px;
   margin-bottom: 10px;
   /* text-align: center; */
   /* align-items: center; */
@@ -84,4 +84,7 @@
   /* width: 500px; */
   width:"100%";
   
+}
+.contentright_img{
+  border-radius: 0.8rem;
 }

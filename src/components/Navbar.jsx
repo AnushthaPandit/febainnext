@@ -6,7 +6,7 @@ import { Typography } from '@mui/material';
 
 const Navbar = () => {
   return (
-    <div className={navstyles.navbar}>
+    <div className={navstyles.navbar}> 
         <div className={navstyles.left}>
           <a>
             <Image src="/Logo.png" alt="" width={60} height={21.813} />
@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link href="/">
               <a><Typography variant="h5">Feba</Typography></a>
             </Link>
-          </span>
+          </span> 
         </div>
         <div className={navstyles.right}>
           <div className={navstyles.rightelem}>Become a Host</div>

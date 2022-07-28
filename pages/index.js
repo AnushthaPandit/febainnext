@@ -27,6 +27,8 @@ export default function Home() {
             textAlign="left"
             style={{
               fontWeight: 400,
+              fontSize:`16px`,
+              marginBottom:`8px`
             }}
           >
             Feba Experiences
@@ -36,13 +38,16 @@ export default function Home() {
             variant="h5"
             textAlign="left"
             style={{
-              fontWeight: 900,
+              fontWeight: 520,
+              fontSize: `30px`,
+              lineHeight: 1.2
             }}
           >
             Unique things to do in 9th arroundissment of Paris
           </Typography>
-          <Typography variant="h6" textAlign="left" style={{ color: `#757575` }}>
-            <p>Book unforgetable activities hosteb by the locals on Airbnb</p>
+          <Typography variant="h6" textAlign="left" style={{ color: `#9e9e9e`,
+        fontSize:`15px` ,fontWeight:`50px` ,lineHeight: 1.3}}>
+            <p>Book unforgetable activities hosteb by locals on Feba</p>
           </Typography>
 
           <div className={navstyles.left_second}>
@@ -52,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div className={navstyles.contentright}>
-          <img src="/frontphoto.webp" alt="" width={1000} height={560} />
+          <img src="/frontphoto.webp" alt="" width={1000} height={545} className={navstyles.contentright_img}/>
         </div>
       </div>
     </div>

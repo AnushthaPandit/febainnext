@@ -8,7 +8,7 @@ const Button = () => {
       <SearchButton
         variant="contained"
         color="success"
-        disabledelevation
+        disabledElevation
         startIcon={<SearchIcon style={{ fontSize: `1.5rem` }} />}
         style={{
           "background-image": `radial-gradient(circle at center right,

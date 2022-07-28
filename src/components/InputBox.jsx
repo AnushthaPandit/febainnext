@@ -40,7 +40,9 @@ const InputBox = () => {
         id="reddit-input"
         variant="filled"
         style={{ marginTop: 11,
-          width:"23.7rem"
+          width:"22.5rem",
+          height:"3.5rem",
+          
          }}
       />
     </div>
