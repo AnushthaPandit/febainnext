@@ -79,10 +79,10 @@ export default function Home() {
 				</div>
 				<div className={navstyles.contentright}>
 					<Image
-						src="/frontphoto.webp"
+						src="/bride8.jpg"
 						alt="geezer on a bike"
-						width={1000}
-						height={530}
+						width={960}      //1000
+						height={535}     //
 						className={navstyles.contentright_img}
 					/>
 				</div>

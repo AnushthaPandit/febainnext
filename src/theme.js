@@ -25,7 +25,7 @@ const theme = createTheme({
     MuiTypography: {
       defaultProps: {
         
-        textTransform: "capitalize",
+        // textTransform: "capitalize",
       },
     },
     MuiStack: {

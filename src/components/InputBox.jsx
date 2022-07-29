@@ -30,6 +30,7 @@ const inputLabelStyles = {
 	color: "#000",
 	textTransform: "uppercase",
 	fontSize: "14px",
+    
 };
 
 const InputBox = (props) => {
