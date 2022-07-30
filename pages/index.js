@@ -21,7 +21,10 @@ export default function Home() {
 
 			{/* from here main content part start */}
 
-			<div className={navstyles.contentcontainer}>
+			<div
+				className={
+					navstyles.contentcontainer + " " + navstyles.default_page_container
+				}>
 				<div className={navstyles.contentleft}>
 					<Typography
 						variant="h6"
@@ -37,7 +40,7 @@ export default function Home() {
 						variant="h5"
 						textAlign="left"
 						style={{
-							margin: "7px 0",
+							margin: "6px 0",
 							fontWeight: 600,
 							fontSize: `30px`,
 							lineHeight: 1.1,
@@ -71,21 +74,13 @@ export default function Home() {
 							}}
 						/>
 						<Butn
-							style={{ marginTop: "8px" }}
+							style={{ marginTop: "5px", marginBottom: "0" }}
 							startIcon={<SearchIcon fontSize="16px" />}>
 							Search
 						</Butn>
 					</div>
 				</div>
-				<div className={navstyles.contentright}>
-					<Image
-						src="/bride8.jpg"
-						alt="geezer on a bike"
-						width={960}      //1000
-						height={535}     //
-						className={navstyles.contentright_img}
-					/>
-				</div>
+				<div className={navstyles.contentright}>{/* <h1>Hello</h1> */}</div>
 			</div>
 		</div>
 	);

@@ -1,3 +1,9 @@
+.default_page_container {
+  padding: 0.8rem 1.6rem .8rem 2rem;
+  padding-left: 540px;
+  padding-right: 40px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,11 +11,11 @@
 
 .left {
   display: flex;
-  padding-left: 2rem;
+  justify-content: baseline;
+  width: 12%;
+  align-items: center;
 }
-.logoname{
-  padding-left: .5rem;
-}
+
 .logoname a {
   text-decoration: none;
   color: black;
@@ -18,47 +24,54 @@
 .right {
   display: flex;
   font-size: 14px;
-  justify-content: space-around;
-  /* font-weight: 300; */
+  justify-content: space-between;
 }
 
 .rightelem {
   padding-right: 13px;
   font-weight: 600;
 }
-.rightelem1{
+
+.rightelem1 {
   font-weight: 600;
-  padding-right: 30px;
 }
+
 .contentcontainer {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
   display: flex;
-  padding: 0.8rem 1rem;
-  justify-content: center;
-  
   width: 100%;
+  height: 600px;
+  justify-content: center;
 }
 
 .contentleft {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  margin-top: 3.1em;
+  width: 410px;
+  /* min-width: 420px;
+  max-width: 420px; */
+  height: fit-content;
+  /* flex-grow: 1; */
   /* margin-left: 8rem; for overlaping in right side */
-  margin-top: 2.5rem;
-  margin-right: -6rem;
-  padding: 2rem;
-  z-index: 850;
+  /* margin-top: 2.5rem; */
+  /* margin-right: -6rem; */
+  padding: 32px;
+  /* z-index: 850; */
   /* for overlaping in right side */
   color: #000;
   background: #fff;
-  border-radius: 1rem;
+  border-radius: 10px;
   box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
   /* box-shadow: 5px 10px 10px 5px rgba(101, 92, 92, 0.5); */
   /* display: flex; */
   /* align-items: center; */
   /* text-align: center; */
   /* justify-content:left; */
-}
-
-.contentleft {
-  width: 440px;
-  height: fit-content;
 }
 
 .contentleft h1 {
@@ -101,6 +114,19 @@
 
 }
 
+.contentright {
+  position: absolute;
+  right: 0;
+  width: 75%;
+  height: 90%;
+  border-radius: 10px;
+  background-image: url(/bride8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .contentright_img {
   border-radius: 0.5rem;
+  width: 80%;
+  height: 80%;
 }

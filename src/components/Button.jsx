@@ -19,7 +19,7 @@ const Button = (props) => {
 		#bd1e59 75%,
 		#bd1e59 100%)`,
 				width: "100%",
-				padding: ".67rem 0",
+				padding: ".65rem 0",
 				fontSize: ".95rem",
 				fontWeight: 600,
 				alignItems: "center",

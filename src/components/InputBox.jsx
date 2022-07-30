@@ -8,6 +8,7 @@ const RedditTextField = styled((props) => (
 ))(({ theme }) => ({
 	"& .MuiFilledInput-root": {
 		border: "1px solid #e2e2e1",
+		fontSize: "14px",
 		overflow: "hidden",
 		borderRadius: "8px",
 		color: "#000",
@@ -30,7 +31,6 @@ const inputLabelStyles = {
 	color: "#000",
 	textTransform: "uppercase",
 	fontSize: "14px",
-    
 };
 
 const InputBox = (props) => {
