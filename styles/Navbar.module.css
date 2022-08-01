@@ -22,7 +22,7 @@
 
 .right {
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   justify-content: space-between;
 }
 
@@ -73,18 +73,25 @@
   /* justify-content:left; */
 }
 
-.contentleft h1 {
-  font-size: 0.5rem;
-  color: #222;
 
+
+
+.text1 {
   font-weight: 500;
-  /* margin: 10px 20px; */
-  margin-top: 27px;
-  margin-bottom: 10px;
-  /* text-align: center; */
-  /* align-items: center; */
+  font-size: 15px;
 }
-
+.text2 {
+  margin: 6px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.1;
+}
+.text3 {
+  /* color: #000; */
+   color: #717171;
+  font-size: 15px;
+  font-weight: 400;
+}
 .formsearch {
   display: flex;
   flex-direction: column;
@@ -110,7 +117,6 @@
   flex-direction: column;
   margin-bottom: 0;
   width: "100%";
-
 }
 
 .contentright {
@@ -131,7 +137,7 @@
 }
 
 /* for responsive */
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   .left {
     display: block;
   }
@@ -139,9 +145,17 @@
   .logoname {
     display: none;
   }
-
+  .left .logoimage{
+    padding-left: 50px;
+  }
+  .rightelem{
+    padding-right: 20px;
+  }
+  .rightelem1{
+    padding-right: 18px;
+  }
   .right {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .default_page_container {
@@ -152,17 +166,19 @@
   }
 
   .contentleft {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: block;
     position: relative;
     width: 100%;
     padding: 15px;
     /* padding-left: 1; */
     box-shadow: none;
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-left: 0;
   }
-
+  .text2 {
+    font-size: 22px;
+  }
   .contentright {
     display: none;
   }

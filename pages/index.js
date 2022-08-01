@@ -29,34 +29,21 @@ export default function Home() {
 					<Typography
 						variant="h6"
 						textAlign="left"
-						style={{
-							fontWeight: 400,
-							fontSize: `16px`,
-						}}>
-						Feba Experiences
+						 className={navstyles.text1}>
+						FEBA EXPERIENCES
 					</Typography>
 
 					<Typography
 						variant="h5"
 						textAlign="left"
-						style={{
-							margin: "6px 0",
-							fontWeight: 600,
-							fontSize: `30px`,
-							lineHeight: 1.1,
-						}}>
+					    className={navstyles.text2}>
 						Unique things to do in 9th arroundissment of Paris
 					</Typography>
 					<div style={{ marginBottom: "12px" }}>
 						<Typography
 							variant="p"
-							style={{
-								color: `#000`,
-								// color: `#717171`,
-								fontSize: `15px`,
-								fontWeight: 400,
-							}}>
-							Book unforgetable activities hosteb by locals on Feba
+							 className={navstyles.text3}>
+							Book unforgetable activities hosted by locals on Feba
 						</Typography>
 					</div>
 					<div className={navstyles.left_second}>

@@ -9,7 +9,7 @@ const Navbar = () => {
 		<div className={navstyles.navbar}>
 			<div className={navstyles.left}>
 				<Link href="/">
-					<Image
+					<Image className={navstyles.logoimage}
 						src="/Logo.png"
 						alt="Company Logo"
 						width={"40px"}
@@ -19,7 +19,7 @@ const Navbar = () => {
 
 				<span className={navstyles.logoname}>
 					<Link href="/">
-						<Typography variant="h5" fontSize={"18px"} marginLeft={"10px"}>
+						<Typography variant="h5" fontSize={"22px"} marginLeft={"10px"}>
 							Feba
 						</Typography>
 					</Link>
