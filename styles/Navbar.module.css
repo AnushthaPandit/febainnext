@@ -130,3 +130,37 @@
   width: 80%;
   height: 80%;
 }
+
+/* for responsive */
+@media screen and (min-width:320px){
+  .left{
+    display: block;
+  }
+  .logoname{
+    display: none;
+  }
+  .right{
+    font-size: 12px;
+  }
+  .default_page_container {
+    /* padding: 0.1rem 1rem .5rem 1rem; */
+    margin: 0;
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+    .contentleft{
+        background-color: aqua;   
+        display: block; 
+        width: 300px;
+        /* padding: 15px; */
+        padding-left: 0;
+        box-shadow: none;
+        margin-top: 1.5em;
+        margin-left: 0;
+    }
+    .contentright{
+         display: none;
+    }
+}
