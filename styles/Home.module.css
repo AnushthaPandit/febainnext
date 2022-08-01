@@ -1,5 +1,6 @@
 .container {
-  padding: 1rem 5rem;
+  padding: 0rem 5rem;
+  padding-left: 10rem;
 }
 
 .main {
@@ -115,7 +116,7 @@
   }
 
   .container {
-    padding: 1rem 0.5rem;
+    padding: 1rem 1.5rem;
   }
 }
 

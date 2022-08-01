@@ -21,28 +21,17 @@ export default function Home() {
 
 			{/* from here main content part start */}
 
-			<div
-				className={
-					navstyles.contentcontainer + " " + navstyles.default_page_container
-				}>
+			<div className={navstyles.contentcontainer}>
 				<div className={navstyles.contentleft}>
-					<Typography
-						variant="h6"
-						textAlign="left"
-						 className={navstyles.text1}>
+					<Typography variant="h6" textAlign="left" className={navstyles.text1}>
 						FEBA EXPERIENCES
 					</Typography>
 
-					<Typography
-						variant="h5"
-						textAlign="left"
-					    className={navstyles.text2}>
+					<Typography variant="h5" textAlign="left" className={navstyles.text2}>
 						Unique things to do in 9th arroundissment of Paris
 					</Typography>
 					<div style={{ marginBottom: "12px" }}>
-						<Typography
-							variant="p"
-							 className={navstyles.text3}>
+						<Typography variant="p" className={navstyles.text3}>
 							Book unforgetable activities hosted by locals on Feba
 						</Typography>
 					</div>
