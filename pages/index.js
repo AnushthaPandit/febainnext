@@ -37,18 +37,20 @@ export default function Home() {
 					</div>
 					<div className={navstyles.left_second}>
 						<InputBox
-							label="location"
-							defaultValue="9th arrondissement of Paris, Paris, France"
+							label="search"
+							defaultValue="Bridal Makeup artist in Mumbai"
 							fullWidth
 						/>
-						<InputBox
+						{/* <InputBox
 							label="Services"
 							defaultValue="Bridal Makeup Artist"
 							fullWidth
 							style={{
 								margin: "10px 0",
 							}}
-						/>
+						/> */}
+						{/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quis sint saepe, dicta voluptatem dolorum doloremque commodi  */}
+
 						<Butn
 							style={{ marginTop: "5px", marginBottom: "0" }}
 							startIcon={<SearchIcon fontSize="16px" />}>

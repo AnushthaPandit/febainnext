@@ -1,0 +1,19 @@
+
+.search_container{
+    padding: 1rem 2rem auto 2rem;
+    
+}
+
+.butt {
+  background-color: white;
+  color: black;
+  padding: 1rem 4rem 1rem 1rem;
+  font-size: 1rem;
+  box-shadow: 24;
+  border-radius: .5rem;
+  
+  
+}
+.butt:hover{
+    background-color: transparent;
+}
