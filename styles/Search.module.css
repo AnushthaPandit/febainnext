@@ -1,19 +1,38 @@
-
-.search_container{
-    padding: 1rem 2rem auto 2rem;
-    
+.search_container {
+  padding: 1rem 5rem;
 }
 
-.butt {
+.anchor_cards_container {
+  display: flex;
+  padding: 12px 0;
+  gap: 3;
+  overflow-x: scroll;
+
+  /* hide scrollbar */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* hide scrollbar */
+.anchor_cards_container::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.anchor_card {
+  margin: 10px;
+  min-width: 260px;
+  font-weight: 500;
+  text-decoration: none;
   background-color: white;
+  padding: 60px;
+  border-radius: 10px;
   color: black;
   padding: 1rem 4rem 1rem 1rem;
-  font-size: 1rem;
+  font-size: 18px;
   box-shadow: 24;
   border-radius: .5rem;
-  
-  
-}
-.butt:hover{
-    background-color: transparent;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 15%);
 }

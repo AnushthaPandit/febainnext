@@ -48,28 +48,13 @@
   z-index: 2;
   margin-top: 2.5em;
   width: 410px;
-  /* min-width: 420px;
-  max-width: 420px; */
   height: fit-content;
-  /* flex-grow: 1; */
-  /* margin-left: 8rem; for overlaping in right side */
-  /* margin-top: 2.5rem; */
-  /* margin-right: -6rem; */
   padding: 32px;
-  /* z-index: 850; */
-  /* for overlaping in right side */
   color: #000;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgb(0 0 0 / 20%);
-  /* box-shadow: 5px 10px 10px 5px rgba(101, 92, 92, 0.5); */
-  /* display: flex; */
-  /* align-items: center; */
-  /* text-align: center; */
-  /* justify-content:left; */
 }
-
-
 
 
 .text1 {
