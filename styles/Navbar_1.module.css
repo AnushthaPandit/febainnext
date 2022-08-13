@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: baseline;
+    width: 12%;
+    align-items: center;
+  }
+  
+  .logoname a {
+    text-decoration: none;
+    color: black;
+  }
+  .text_search{
+      width: 25rem;
+      height: 0.6rem;
+      border-radius: 40px;
+      
+  }
+  .right {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+  }
+  
+  .rightelem {
+    padding-right: 13px;
+    font-weight: 600;
+  }
+  
+  .rightelem1 {
+    font-weight: 600;
+  }
+  
+  .search_icon{
+    color: brown;
+    background-color: black;
+  }
+  .inputRounded .MuiOutlinedInput-root {
+    border-radius: 20px;
+    
+  }
+  .inputRounded{
+    width: 25rem;
+    border-radius: 20px;
+  }

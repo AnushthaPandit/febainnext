@@ -1,0 +1,234 @@
+{
+    "message": "Fetched Successfully!",
+    "data": {
+        "dataCount": 5,
+        "title": "Bridal Makeup Artists In Bangalore",
+        "resultString": "Showing 5+ results",
+        "seoData": {
+            "title": "Best 40 Bridal Makeup Artists In Bangalore - prices & Reviews | FEBA",
+            "description": "Book Best Bridal Makeup Artists. Compare with prices, portfolio and reviews. Filter by city; choose the best Bridal Makeup Artists in your budget. List of 100+ vendors to choose from In Bangalore",
+            "keywords": [
+                "Bridal Makeup Artists",
+                "Bridal Makeup Artists In Bangalore"
+            ],
+            "canonical": "https://www.feba.co.in/vendors/bangalore/bridal-makeup",
+            "siteUrl": "https://www.feba.co.in/vendors/bangalore/bridal-makeup"
+        },
+        "price_limit_filter_label": "for Bridal Makeup",
+        "min_price_limit": "10000",
+        "max_price_limit": "22500",
+        "vendors": [
+            {
+                "vendor_title": "PrettyUMakeovers",
+                "ranking_package": "super_vendor",
+                "vendor_city": "Bangalore",
+                "vendor_service_price": "12000",
+                "vendor_top_service": "Bridal Makeup",
+                "vendor_super": null,
+                "vendor_category": "Bridal Makeup Artist",
+                "vendor_prime": null,
+                "impressions": "69",
+                "total_reviews": null,
+                "localities": [
+                    "BTM Layout"
+                ],
+                "vendor_id": "527",
+                "avg": "4.8",
+                "image_url": "/media/BridalImages/527/123/16191617630560.jpg",
+                "image_desc": "",
+                "coverImage": [
+                    {
+                        "url": "/media/BridalImages/527/123/16191617630560.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/527/123/16191617630561.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/527/123/16191617630562.jpg",
+                        "desc": ""
+                    }
+                ],
+                "bookedDates": [],
+                "businessInfo": {}
+            },
+            {
+                "vendor_title": "Shubh_Makeovers",
+                "ranking_package": "popular1",
+                "vendor_city": "Bangalore",
+                "vendor_service_price": "10000",
+                "vendor_top_service": "Bridal Makeup",
+                "vendor_super": null,
+                "vendor_category": "Bridal Makeup Artist",
+                "vendor_prime": null,
+                "impressions": "14",
+                "total_reviews": null,
+                "localities": [
+                    "Jalahalli"
+                ],
+                "vendor_id": "662",
+                "avg": "4.8",
+                "image_url": "/media/BridalImages/662/123/16329993434890.jpg",
+                "image_desc": "",
+                "coverImage": [
+                    {
+                        "url": "/media/BridalImages/662/123/16329993434890.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/662/123/16329993434891.jpg",
+                        "desc": ""
+                    }
+                ],
+                "bookedDates": [
+                    {
+                        "appoint_date": "2021-12-13",
+                        "event_schedule": "both"
+                    }
+                ],
+                "businessInfo": {}
+            },
+            {
+                "vendor_title": "Artistryby_SriHitha ",
+                "ranking_package": "popular1",
+                "vendor_city": "Bangalore",
+                "vendor_service_price": "20000",
+                "vendor_top_service": "Bridal Makeup",
+                "vendor_super": null,
+                "vendor_category": "Bridal Makeup Artist",
+                "vendor_prime": null,
+                "impressions": "14",
+                "total_reviews": null,
+                "localities": [
+                    "Aavalahalli"
+                ],
+                "vendor_id": "680",
+                "avg": "4.8",
+                "image_url": "/media/BridalImages/680/123/16384313853930.jpg",
+                "image_desc": "Engagement look",
+                "coverImage": [
+                    {
+                        "url": "/media/BridalImages/680/123/16384313853930.jpg",
+                        "desc": "Engagement look"
+                    },
+                    {
+                        "url": "/media/BridalImages/680/123/16384313853931.jpg",
+                        "desc": "Eye makeup "
+                    },
+                    {
+                        "url": "/media/BridalImages/680/123/16384313853932.jpg",
+                        "desc": "Reception look"
+                    },
+                    {
+                        "url": "/media/BridalImages/680/123/16384313853933.jpg",
+                        "desc": "Reception look"
+                    }
+                ],
+                "bookedDates": [],
+                "businessInfo": {}
+            },
+            {
+                "vendor_title": "Kulsum Parvez International Makeup Artist",
+                "ranking_package": "verified",
+                "vendor_city": "Bangalore",
+                "vendor_service_price": "22500",
+                "vendor_top_service": "Bridal Makeup",
+                "vendor_super": null,
+                "vendor_category": "Bridal Makeup Artist",
+                "vendor_prime": null,
+                "impressions": "14",
+                "total_reviews": null,
+                "localities": [
+                    "Aavalahalli"
+                ],
+                "vendor_id": "532",
+                "avg": "4.8",
+                "image_url": "/media/BridalImages/532/123/16195183129400.jpg",
+                "image_desc": "",
+                "coverImage": [
+                    {
+                        "url": "/media/BridalImages/532/123/16195183129400.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/532/123/16195183129401.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/532/123/16195183129402.jpg",
+                        "desc": ""
+                    }
+                ],
+                "bookedDates": [],
+                "businessInfo": {}
+            },
+            {
+                "vendor_title": "Dejavu Makeup By Vinni",
+                "ranking_package": "verified",
+                "vendor_city": "Bangalore",
+                "vendor_service_price": "15000",
+                "vendor_top_service": "Bridal Makeup",
+                "vendor_super": null,
+                "vendor_category": "Bridal Makeup Artist",
+                "vendor_prime": null,
+                "impressions": "13",
+                "total_reviews": null,
+                "localities": [
+                    "Aavalahalli",
+                    "Arekere",
+                    "Banashankari",
+                    "Bannerghatta Main Road",
+                    "Banshankari",
+                    "Basavanagudi",
+                    "Basaveshwara Nagar",
+                    "Brigade Road",
+                    "BTM Layout",
+                    "Hebbal",
+                    "Hosur Road",
+                    "HSR Layout",
+                    "Hulimavu",
+                    "Indiranagar",
+                    "J P Nagar",
+                    "Jalahalli",
+                    "Jayanagar",
+                    "K R Puram",
+                    "Kalyan Nagar",
+                    "Kamakshipalya",
+                    "Kammanahalli",
+                    "Kanakapura Road",
+                    "Kengeri Satellite Town",
+                    "Koramangala",
+                    "Kundalahalli",
+                    "Magadi Road",
+                    "Chandapura",
+                    "C V Raman",
+                    "Chord Road",
+                    "Devanahalli",
+                    "Electronic City"
+                ],
+                "vendor_id": "530",
+                "avg": "4.8",
+                "image_url": "/media/BridalImages/530/123/16191778453380.jpg",
+                "image_desc": "",
+                "coverImage": [
+                    {
+                        "url": "/media/BridalImages/530/123/16191778453380.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/530/123/16191778453381.jpg",
+                        "desc": ""
+                    },
+                    {
+                        "url": "/media/BridalImages/530/123/16191778453382.jpg",
+                        "desc": ""
+                    }
+                ],
+                "bookedDates": [],
+                "businessInfo": {}
+            }
+        ],
+        "others": []
+    }
+}

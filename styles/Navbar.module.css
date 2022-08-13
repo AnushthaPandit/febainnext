@@ -15,7 +15,11 @@
   text-decoration: none;
   color: black;
 }
-
+.text_search{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 20px;
+}
 .right {
   display: flex;
   font-size: 16px;
