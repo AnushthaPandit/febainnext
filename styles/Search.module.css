@@ -36,18 +36,26 @@
   border-radius: .5rem;
   box-shadow: 0 6px 20px rgb(0 0 0 / 15%);
 }
-.main_content{
-    margin-top: 3rem;;
+
+.main_content {
+  margin-top: 3rem;
+  ;
 }
-.part1_heading{
+
+.part1_heading {
   margin-bottom: 2rem;
 }
-.subpart{
+
+.subpart {
   display: flex;
 }
-.subimage_1{
+
+.subimage_1 {
   border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
 }
-.subpart_2{
+
+.subpart_2 {
   padding: 5rem;
 }
