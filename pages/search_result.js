@@ -1,8 +1,12 @@
-import Typography from "@mui/material/Typography";
 import React from "react";
+
+import Image from "next/image";
+import Link from "next/link";
+
+import Typography from "@mui/material/Typography";
+
 import Navbar_1 from "../src/components/Navbar_1";
 import style from "../styles/Search.module.css";
-import Image from "next/image";
 
 const anchor_cards = [
 	{ title: "Culture", href: "#" },
@@ -22,9 +26,9 @@ const search_result = () => {
 			</Typography>
 			<div className={style.anchor_cards_container}>
 				{anchor_cards.map((obj, idx) => (
-					<a key={idx} href={obj.href} className={style.anchor_card}>
+					<Link key={idx} href={obj.href}>
 						{obj.title}
-					</a>
+					</Link>
 				))}
 			</div>
 			<div className={style.main_content}>

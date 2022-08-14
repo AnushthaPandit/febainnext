@@ -1,55 +1,37 @@
 import React from "react";
+import { styled } from "@mui/material/styles";
+import { makeStyles } from "@mui/styles";
 
 import Image from "next/image";
 import Link from "next/link";
+
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
-import { Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import InputAdornment from "@mui/material/InputAdornment";
+
 import SearchIcon from "@mui/icons-material/Search";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import AccountCircle from "@mui/icons-material/AccountCircle";
-import InputAdornment from "@mui/material/InputAdornment";
 import LanguageIcon from "@mui/icons-material/Language";
 
 import navstyles from "../../styles/Navbar_1.module.css";
 
-const SearchTextField = styled((props) => (
-	<TextField
-		placeholder="search"
-		size="small"
-		InputProps={{
-			// style: { borderRadius: "20px" },
-			endAdornment: (
-				<InputAdornment position="end">
-					<SearchIcon
-						sx={{
-							color: `white`,
-							borderRadius: "20px",
-							fontSize: 30,
-							padding: "5px",
-							marginRight: "-8px",
-							backgroundImage: `radial-gradient(circle at center right,
-                #ff385c 0,
-                #e61e4d 27.5%,
-                #e31c5f 40%,
-                #d70466 57.5%,
-                #bd1e59 75%,
-                #bd1e59 100%)`,
-						}}
-					/>
-				</InputAdornment>
-			),
-		}}
-		{...props}
-	/>
-))(({ theme }) => ({
-	"& .MuiOutlinedInput-root": {
-		borderRadius: "30px",
+const useStyles = makeStyles({
+	circleIcon: {
+		fontSize: 35,
+		marginRight: -2,
 	},
-}));
+
+	menuIcon: {
+		marginLeft: 4,
+		marginRight: 10,
+	},
+});
 
 const Navbar = () => {
+	const classes = useStyles();
+
 	return (
 		<div className={navstyles.navbar}>
 			<div className={navstyles.left}>
@@ -83,10 +65,10 @@ const Navbar = () => {
 					<LanguageIcon />
 				</div>
 				<div className={navstyles.rightelem1}>
-					<Button
-						variant="outlined"
-						startIcon={<ReorderIcon />}
-						endIcon={<AccountCircle />}></Button>
+					<AccountButton size="large" variant="outlined">
+						<ReorderIcon fontSize="small" className={classes.menuIcon} />
+						<AccountCircle className={classes.circleIcon} />
+					</AccountButton>
 				</div>
 			</div>
 		</div>
@@ -94,3 +76,50 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const SearchTextField = styled((props) => (
+	<TextField
+		placeholder="search"
+		size="small"
+		InputProps={{
+			endAdornment: (
+				<InputAdornment position="end">
+					<SearchIcon
+						sx={{
+							color: `white`,
+							borderRadius: "20px",
+							fontSize: 30,
+							padding: "5px",
+							marginRight: "-8px",
+							backgroundImage: `radial-gradient(circle at center right,
+                #ff385c 0,
+                #e61e4d 27.5%,
+                #e31c5f 40%,
+                #d70466 57.5%,
+                #bd1e59 75%,
+                #bd1e59 100%)`,
+						}}
+					/>
+				</InputAdornment>
+			),
+		}}
+		{...props}
+	/>
+))(() => ({
+	"& .MuiOutlinedInput-root": {
+		borderRadius: "30px",
+	},
+}));
+
+const AccountButton = styled(Button)({
+	borderColor: "#DDDDDD",
+	borderRadius: "30px",
+	padding: "2px 5px",
+	display: "flex",
+	justifyContent: "space-between",
+
+	"&:hover": {
+		borderColor: "#DDDDDD",
+		boxShadow: "0 2px 4px rgba(0,0,0,0.18);",
+	},
+});
