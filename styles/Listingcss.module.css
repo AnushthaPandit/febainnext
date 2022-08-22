@@ -1,0 +1,29 @@
+.mainComponent{
+    padding: 0;
+    margin: 0;
+}
+.navBar{
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.menuIcon{
+    padding-right: 60px;
+    /* font-size: 60px; */
+}
+.logoImage{
+    padding-right: 1rem;
+}
+/* filter section css */
+.filter_section{
+    display: flex;
+    padding: 0 1.5rem;
+}
+/* main container */
+.main_container{
+    padding: 0 1.5rem;
+}
+.container_cards{
+    display: flex;
+}

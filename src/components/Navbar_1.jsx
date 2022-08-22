@@ -79,7 +79,7 @@ export default Navbar;
 
 const SearchTextField = styled((props) => (
 	<TextField
-		placeholder="search"
+		placeholder="Bridal makeup artist in Mumbai"
 		size="small"
 		InputProps={{
 			endAdornment: (
@@ -108,6 +108,7 @@ const SearchTextField = styled((props) => (
 ))(() => ({
 	"& .MuiOutlinedInput-root": {
 		borderRadius: "30px",
+		width:"25rem",
 	},
 }));
 

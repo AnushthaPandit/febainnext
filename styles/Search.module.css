@@ -39,7 +39,7 @@
 
 .main_content {
   margin-top: 3rem;
-  ;
+  
 }
 
 .part1_heading {
@@ -49,13 +49,30 @@
 .subpart {
   display: flex;
 }
-
+.subpart_1{
+  margin-bottom: 1.5rem;
+}
 .subimage_1 {
+  border-radius: 15px 15px 15px 0;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.subimage_12 {
   border-radius: 15px;
   object-fit: cover;
   object-position: center;
+  
 }
-
 .subpart_2 {
   padding: 5rem;
+}
+.part_2{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 20px
+}
+.imageStyle{
+    margin-right: 1rem;
+    border-radius: 0 15px 15px 15px; 
 }
