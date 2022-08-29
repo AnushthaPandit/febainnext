@@ -1,0 +1,109 @@
+@import "./colors.scss";
+
+.filterButton {
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #999;
+	border-radius: 20px;
+	font-size: 12px;
+}
+
+.filterHead {
+	background-color: #fff;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 5;
+}
+
+.dialogHead {
+	position: fixed;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.dialogFoot {
+	text-align: center;
+	width: 90%;
+	position: fixed;
+	bottom: 0;
+	padding: 15px 5%;
+	border-top: 1px solid #e5e5e5;
+	background-color: #fff;
+}
+
+.dialogFootButton {
+	font-weight: 700;
+	height: 40px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.listTitle {
+	margin: 0;
+	font-family: Raleway;
+	font-size: 17px;
+	color: #484848;
+}
+
+.listDesc {
+	margin: 5px 0px 20px;
+	font-family: Raleway;
+	font-size: 15px;
+	color: #484848;
+	letter-spacing: 0.03em;
+}
+
+.cardContent {
+	padding: 5px 0 15px;
+}
+
+.memberTagList {
+	border-radius: 5px;
+	color: white;
+	padding: 2px 8px;
+	margin-right: 4px;
+	font-size: 14px;
+	font-weight: 400;
+	width: max-content;
+	font-family: "Calibri";
+}
+
+.rating {
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.vendorTitle {
+	color: $textPrimary2 !important;
+}
+
+.secondaryText {
+	font-size: 14px !important;
+	font-weight: bold !important;
+	color: $textPrimary2;
+	letter-spacing: 0.02rem;
+}
+
+.show-more-portfolio-btn-ctn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.show-more-portfolio-btn-ctn-btn {
+	background-color: transparent;
+	color: rgb(68, 66, 66);
+	border-radius: 40px;
+	padding: 4px 8px;
+	border-radius: 8px;
+	border: 1px solid rgb(68, 66, 66);
+	/* position: absolute;
+	width: 200px;
+	right: 20px;
+	bottom: 30px; */
+}

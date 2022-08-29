@@ -1,0 +1,355 @@
+{
+    "success": true,
+    "data": [
+        {
+            "local_city_id": 6,
+            "available_city_id": 1000,
+            "local_city_name": "Airoli"
+        },
+        {
+            "local_city_id": 7,
+            "available_city_id": 1000,
+            "local_city_name": "Andheri East"
+        },
+        {
+            "local_city_id": 8,
+            "available_city_id": 1000,
+            "local_city_name": "Andheri West"
+        },
+        {
+            "local_city_id": 9,
+            "available_city_id": 1000,
+            "local_city_name": "Bandra"
+        },
+        {
+            "local_city_id": 10,
+            "available_city_id": 1000,
+            "local_city_name": "Belapur"
+        },
+        {
+            "local_city_id": 214,
+            "available_city_id": 1000,
+            "local_city_name": "Bhandup"
+        },
+        {
+            "local_city_id": 215,
+            "available_city_id": 1000,
+            "local_city_name": "Bhayander East"
+        },
+        {
+            "local_city_id": 216,
+            "available_city_id": 1000,
+            "local_city_name": "Bhayander West"
+        },
+        {
+            "local_city_id": 217,
+            "available_city_id": 1000,
+            "local_city_name": "Borivali"
+        },
+        {
+            "local_city_id": 218,
+            "available_city_id": 1000,
+            "local_city_name": "Byculla"
+        },
+        {
+            "local_city_id": 219,
+            "available_city_id": 1000,
+            "local_city_name": "Central Suburbs"
+        },
+        {
+            "local_city_id": 220,
+            "available_city_id": 1000,
+            "local_city_name": "Charni Road"
+        },
+        {
+            "local_city_id": 221,
+            "available_city_id": 1000,
+            "local_city_name": "Chembur"
+        },
+        {
+            "local_city_id": 222,
+            "available_city_id": 1000,
+            "local_city_name": "Colaba"
+        },
+        {
+            "local_city_id": 223,
+            "available_city_id": 1000,
+            "local_city_name": "Dadar"
+        },
+        {
+            "local_city_id": 224,
+            "available_city_id": 1000,
+            "local_city_name": "Dahisar"
+        },
+        {
+            "local_city_id": 225,
+            "available_city_id": 1000,
+            "local_city_name": "Dahisar East"
+        },
+        {
+            "local_city_id": 226,
+            "available_city_id": 1000,
+            "local_city_name": "Dombivali"
+        },
+        {
+            "local_city_id": 227,
+            "available_city_id": 1000,
+            "local_city_name": "Dombivli"
+        },
+        {
+            "local_city_id": 228,
+            "available_city_id": 1000,
+            "local_city_name": "Ghatkopar"
+        },
+        {
+            "local_city_id": 229,
+            "available_city_id": 1000,
+            "local_city_name": "Ghatkopar West"
+        },
+        {
+            "local_city_id": 230,
+            "available_city_id": 1000,
+            "local_city_name": "Goregaon"
+        },
+        {
+            "local_city_id": 231,
+            "available_city_id": 1000,
+            "local_city_name": "Jogeshwari"
+        },
+        {
+            "local_city_id": 232,
+            "available_city_id": 1000,
+            "local_city_name": "Juhu"
+        },
+        {
+            "local_city_id": 233,
+            "available_city_id": 1000,
+            "local_city_name": "Kalwa"
+        },
+        {
+            "local_city_id": 234,
+            "available_city_id": 1000,
+            "local_city_name": "Kalyan"
+        },
+        {
+            "local_city_id": 235,
+            "available_city_id": 1000,
+            "local_city_name": "Kandivali"
+        },
+        {
+            "local_city_id": 236,
+            "available_city_id": 1000,
+            "local_city_name": "Khar West"
+        },
+        {
+            "local_city_id": 237,
+            "available_city_id": 1000,
+            "local_city_name": "Kharghar"
+        },
+        {
+            "local_city_id": 238,
+            "available_city_id": 1000,
+            "local_city_name": "Kurla"
+        },
+        {
+            "local_city_id": 239,
+            "available_city_id": 1000,
+            "local_city_name": "Lokhandwala"
+        },
+        {
+            "local_city_id": 240,
+            "available_city_id": 1000,
+            "local_city_name": "Lower Parel"
+        },
+        {
+            "local_city_id": 241,
+            "available_city_id": 1000,
+            "local_city_name": "Mahim"
+        },
+        {
+            "local_city_id": 242,
+            "available_city_id": 1000,
+            "local_city_name": "Malad"
+        },
+        {
+            "local_city_id": 243,
+            "available_city_id": 1000,
+            "local_city_name": "Malad East\n"
+        },
+        {
+            "local_city_id": 244,
+            "available_city_id": 1000,
+            "local_city_name": "Malad West"
+        },
+        {
+            "local_city_id": 245,
+            "available_city_id": 1000,
+            "local_city_name": "Marol"
+        },
+        {
+            "local_city_id": 246,
+            "available_city_id": 1000,
+            "local_city_name": "Matunga"
+        },
+        {
+            "local_city_id": 247,
+            "available_city_id": 1000,
+            "local_city_name": "Mira Bhayandar"
+        },
+        {
+            "local_city_id": 248,
+            "available_city_id": 1000,
+            "local_city_name": "Mira Road"
+        },
+        {
+            "local_city_id": 249,
+            "available_city_id": 1000,
+            "local_city_name": "Mulund"
+        },
+        {
+            "local_city_id": 250,
+            "available_city_id": 1000,
+            "local_city_name": "Mumbai Central"
+        },
+        {
+            "local_city_id": 251,
+            "available_city_id": 1000,
+            "local_city_name": "Mumbra"
+        },
+        {
+            "local_city_id": 252,
+            "available_city_id": 1000,
+            "local_city_name": "Nalasopara"
+        },
+        {
+            "local_city_id": 253,
+            "available_city_id": 1000,
+            "local_city_name": "Navi Mumbai"
+        },
+        {
+            "local_city_id": 254,
+            "available_city_id": 1000,
+            "local_city_name": "Nerul"
+        },
+        {
+            "local_city_id": 255,
+            "available_city_id": 1000,
+            "local_city_name": "Panvel"
+        },
+        {
+            "local_city_id": 256,
+            "available_city_id": 1000,
+            "local_city_name": "Parel"
+        },
+        {
+            "local_city_id": 257,
+            "available_city_id": 1000,
+            "local_city_name": "Powai"
+        },
+        {
+            "local_city_id": 258,
+            "available_city_id": 1000,
+            "local_city_name": "Prabhadevi"
+        },
+        {
+            "local_city_id": 259,
+            "available_city_id": 1000,
+            "local_city_name": "Saki Naka"
+        },
+        {
+            "local_city_id": 260,
+            "available_city_id": 1000,
+            "local_city_name": "Sanpada"
+        },
+        {
+            "local_city_id": 261,
+            "available_city_id": 1000,
+            "local_city_name": "Santacruz"
+        },
+        {
+            "local_city_id": 262,
+            "available_city_id": 1000,
+            "local_city_name": "Seawoods"
+        },
+        {
+            "local_city_id": 263,
+            "available_city_id": 1000,
+            "local_city_name": "Sion"
+        },
+        {
+            "local_city_id": 264,
+            "available_city_id": 1000,
+            "local_city_name": "South Mumbai"
+        },
+        {
+            "local_city_id": 265,
+            "available_city_id": 1000,
+            "local_city_name": "Suburbs"
+        },
+        {
+            "local_city_id": 266,
+            "available_city_id": 1000,
+            "local_city_name": "Tardeo"
+        },
+        {
+            "local_city_id": 267,
+            "available_city_id": 1000,
+            "local_city_name": "Thane"
+        },
+        {
+            "local_city_id": 268,
+            "available_city_id": 1000,
+            "local_city_name": "Thane East"
+        },
+        {
+            "local_city_id": 269,
+            "available_city_id": 1000,
+            "local_city_name": "Thane West"
+        },
+        {
+            "local_city_id": 270,
+            "available_city_id": 1000,
+            "local_city_name": "Ulhasnagar"
+        },
+        {
+            "local_city_id": 271,
+            "available_city_id": 1000,
+            "local_city_name": "Vasai Virar"
+        },
+        {
+            "local_city_id": 272,
+            "available_city_id": 1000,
+            "local_city_name": "Vashi"
+        },
+        {
+            "local_city_id": 273,
+            "available_city_id": 1000,
+            "local_city_name": "Versova"
+        },
+        {
+            "local_city_id": 274,
+            "available_city_id": 1000,
+            "local_city_name": "Vile Parle"
+        },
+        {
+            "local_city_id": 275,
+            "available_city_id": 1000,
+            "local_city_name": "Virar"
+        },
+        {
+            "local_city_id": 276,
+            "available_city_id": 1000,
+            "local_city_name": "Wadala"
+        },
+        {
+            "local_city_id": 277,
+            "available_city_id": 1000,
+            "local_city_name": "Western Suburbs"
+        },
+        {
+            "local_city_id": 278,
+            "available_city_id": 1000,
+            "local_city_name": "Worli"
+        }
+    ]
+}

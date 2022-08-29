@@ -20,6 +20,15 @@
     display: flex;
     padding: 0 1.5rem;
 }
+.city_filter{
+    padding: 0.5rem;
+}
+.service_filter{
+    padding: 0.5rem;
+}
+.other_filter{
+    padding: 0.5rem;
+}
 /* main container */
 .main_container{
     padding: 0 1.5rem;

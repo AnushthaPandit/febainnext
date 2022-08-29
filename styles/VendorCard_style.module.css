@@ -1,0 +1,66 @@
+.availibility-date-text {
+	color: white;
+	margin-bottom: 8px;
+}
+
+.availibility-date-text .text {
+	margin: 4px;
+	margin-left: 0;
+	text-align: center;
+	padding: 4px 8px;
+	border-radius: 10px;
+	font-weight: 500;
+	height: fit-content;
+}
+
+.available {
+	background-color: #0eca2d;
+}
+
+.not-available {
+	background-color: #dd404d;
+}
+
+.both {
+	background-color: #dd404d;
+}
+
+.morning {
+	background-color: orange;
+}
+
+.evening {
+	background-color: yellow;
+}
+
+.available-dot {
+	color: #0eca2d;
+}
+
+.not-available-dot {
+	color: #dd404d;
+}
+
+.both-dot {
+	color: #dd404d;
+}
+
+.morning-dot {
+	color: orange;
+}
+
+.evening-dot {
+	color: yellow;
+}
+
+.busy-day-custom-calendar {
+	background-color: #dd404d;
+}
+
+.b-details::-webkit-scrollbar{
+	display: none;
+	-ms-overflow-style: none;
+		
+		scrollbar-width: none;
+	
+}
